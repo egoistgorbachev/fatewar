@@ -1,0 +1,99 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0b0b0b;
+  color: #fff;
+}
+
+.hero {
+  background: url('background.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #ff2e2e;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin: 1rem 0 2rem;
+}
+
+.buttons .btn {
+  background-color: #ff2e2e;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem;
+  text-decoration: none;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.buttons .btn-outline {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+.trailer {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.trailer h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.why-join {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #111;
+}
+
+.why-join h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ff2e2e;
+}
+
+.why-join ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-join li {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
